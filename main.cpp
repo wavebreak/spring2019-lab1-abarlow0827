@@ -13,7 +13,10 @@ int main() {
     getline(cin, userLine);
     cout << "You entered: " << userLine << endl;
 
-    //this is a test
+    if (userLine.find("BFF") >= 1) {
+
+    }
+
 
     cout << "Expanded: " << userLine << endl;
 
